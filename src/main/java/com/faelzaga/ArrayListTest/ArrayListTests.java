@@ -3,7 +3,7 @@ package main.java.com.faelzaga.ArrayListTest;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ArrayListTest {
+public class ArrayListTests {
 
     public static void main(String[] args) {
         List colors = List.of("Blue","Red","Green","Yellow","Purple"); //Immutable
