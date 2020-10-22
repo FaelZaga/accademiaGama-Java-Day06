@@ -32,6 +32,22 @@ public class ArrayListAccountSort {
         Collections.sort(accounts);
 
         readAll(accounts);
+
+        Collections.reverse(accounts);
+
+        readAll(accounts);
+
+        Collections.rotate(accounts,5);
+
+        readAll(accounts);
+
+        Collections.sort(accounts);
+
+        readAll(accounts);
+
+        Collections.shuffle(accounts);
+
+        readAll(accounts);
     }
 
     public static void readAll(List list){
